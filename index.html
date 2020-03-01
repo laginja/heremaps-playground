@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    
+    <title>HERE TonJug</title>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" /> 
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-clustering.js"
+     type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body id="markers-on-the-map">
+    <div id="main">
+      <div id="info">
+        <div id="user-panel">
+
+        </div>
+        <div id="smart-objects">
+          <div class="smart-objects-group">
+            <div id="parking" class="smart-object"><h3>Parking</h3></div>
+            <div id="traffic-light" class="smart-object"><h3>Traffic Light</h3></div>
+          </div>
+          <div class="smart-objects-group">
+            <div id="water-sensor" class="smart-object"><h3>Sensor - Water</h3></div>
+            <div id="gas-sensor" class="smart-object"><h3>Sensor - Gas</h3></div>
+          </div>
+          <div class="smart-objects-group">
+            <div id="parking-sensor" class="smart-object"><h3>Parking Sensor</h3></div>
+            <div id="parking-ramp" class="smart-object"><h3>Parking Ramp</h3></div>
+          </div>
+          <div class="smart-objects-group">
+            <div id="vendomat" class="smart-object"><h3>Vendomat</h3></div>
+            <div id="traffic-counter" class="smart-object"><h3>Traffic Counter</h3></div>
+          </div>
+          <div class="smart-objects-group">
+            <div id="wify" class="smart-object"><h3>Wify Router</h3></div>
+            <div id="senszor-air" class="smart-object"><h3>Sensor - Air</h3></div>
+          </div>
+          <div class="smart-objects-group">
+            <div id="smart-bench" class="smart-object"><h3>Smart Bench</h3></div>
+            <div id="smart-trash-can" class="smart-object"><h3>Smart Trash Can</h3></div>
+          </div>
+        </div>
+      </div>
+      <div id="visibility">Set visibility</div>
+      <div id="map"></div>
+    </div>
+    
+    <script type="text/javascript" src='main.js'></script>
+  </body>
+</html>
